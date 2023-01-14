@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node proxy.js",
+    "dev": "nodemon proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thePeras/http-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thePeras/http-proxy/issues"
+  },
+  "homepage": "https://github.com/thePeras/http-proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
